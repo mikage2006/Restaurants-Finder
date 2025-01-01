@@ -1,0 +1,19 @@
+.header {
+  @apply bg-primary text-white shadow-md;
+}
+
+.header-content {
+  @apply container mx-auto px-4 py-4 flex items-center justify-between;
+}
+
+.header-title {
+  @apply flex items-center;
+}
+
+.header-icon {
+  @apply w-8 h-8 mr-2;
+}
+
+.header-text {
+  @apply text-xl font-semibold;
+}

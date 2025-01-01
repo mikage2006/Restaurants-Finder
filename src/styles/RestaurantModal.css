@@ -1,0 +1,47 @@
+.modal-overlay {
+  @apply fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-40;
+}
+
+.modal-content {
+  @apply bg-white rounded-lg max-w-lg w-full overflow-hidden shadow-xl z-50;
+}
+
+.modal-image {
+  @apply w-full h-64 object-cover;
+}
+
+.modal-body {
+  @apply p-6;
+}
+
+.modal-title {
+  @apply text-2xl font-bold mb-4 text-gray-800;
+}
+
+.modal-info {
+  @apply mb-4 space-y-2;
+}
+
+.modal-info-item {
+  @apply flex items-center text-gray-600;
+}
+
+.modal-icon {
+  @apply w-5 h-5 mr-2;
+}
+
+.modal-buttons {
+  @apply flex justify-end space-x-2;
+}
+
+.modal-button {
+  @apply px-4 py-2 rounded-md transition duration-300 ease-in-out;
+}
+
+.modal-button-close {
+  @apply bg-gray-200 text-gray-800 hover:bg-gray-300;
+}
+
+.modal-button-details {
+  @apply bg-primary text-white hover:bg-primary-dark;
+}

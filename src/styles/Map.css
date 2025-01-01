@@ -1,0 +1,19 @@
+.map-container {
+  @apply w-full h-[400px] rounded-lg overflow-hidden shadow-md mb-8;
+}
+
+.map-error {
+  @apply w-full h-[400px] rounded-lg overflow-hidden shadow-md mb-8 bg-gray-100 flex items-center justify-center;
+}
+
+.map-error-content {
+  @apply text-center p-4;
+}
+
+.map-error-icon {
+  @apply w-12 h-12 mx-auto mb-4 text-gray-400;
+}
+
+.map-error-message {
+  @apply text-gray-600;
+}
